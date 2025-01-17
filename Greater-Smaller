@@ -1,0 +1,13 @@
+##Input the values of a and b as 10 and 20 respectively. Now check if a is greater or b is greater using if condition. Think about all the edge cases, and print the statements accordingly
+
+#Input numbers
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+#Find the greater number
+
+if a>b:
+    print(f"{a} is grater than {b}")
+else:
+    print(f"{b} is grater than {a}")
